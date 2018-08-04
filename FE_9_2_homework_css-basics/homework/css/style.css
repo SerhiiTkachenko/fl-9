@@ -1,0 +1,145 @@
+/* 
+
+write your code here
+
+*/
+/* 
+
+write your code here
+
+*/
+/* Task-1 */
+    @media print {
+        .tm-sidebar,#about,
+        section:not(:first-of-type){
+            display: none;
+        }
+        .tm-main-content {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .tm-banner {
+            height: 200px;
+            padding: unset;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .tm-team-description-container {
+            max-width: 100%;
+            padding: 7px 15px 7px 15px;
+        }
+        .tm-team-description-container h2{
+            font-size: 30px;
+            color: blue;
+        }
+        .tm-team-description-container p{
+            font-size: 17px;
+        }
+        .flex-2-col {
+            display: block;
+        }
+        .flex-item:last-child {
+            text-align: center;
+        }
+        #home::before{
+            display: none;
+        }
+        .tm-main-content section:nth-child(2)::before{
+            display: none;
+        }
+}
+@media screen {
+    /* Task-2 */
+    #about .boxes .box img {
+        border-radius: 50%;
+    }
+    .box-bg h2 {
+        font-size: 46px;
+    }
+    .box-bg h2:hover {
+        color: white;
+        font-weight: bold;
+        background-color: #31B0D5;
+    }
+    /* Task-3 */
+    p::first-letter {
+        color: #76cdd7;
+        font-size: 30px; 
+    }
+    /* Task-4 */
+    .tm-sidebar, .tm-content-box {
+        box-shadow: 0px 0px 12px 0px #808080;
+    }
+    /* Task-5 */
+    #home::before,
+    section::before {
+        content: '';
+        position: absolute;    
+        border-bottom: 26px solid transparent;
+        border-left: 105px solid #2baad1;
+    }
+    /* Task-6 */
+    .carousel-content h2.tm-section-title:first-child {
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+    /* Task-7 */
+    h2+p {
+        font-style: italic;
+    }
+    /* Task-8 */
+    .tm-team-description-container p.tm-section-description {
+        text-indent: 15px;
+        line-height: 30px;
+    }
+    /* Task-9 */
+    .pad li a {
+        color: #000000;
+    }
+    .pad li a:visited {
+        color: #c0c0c0;
+    }
+    .pad li a:hover {
+        text-decoration: underline double;
+        color: #014c8c;
+    }
+    .pad li a.text:after {
+        content: "New";
+        color: #ff0000;
+        font-size: .6em;
+        vertical-align: super;
+    }
+    /* Task-10 */
+    .blocks .gallery-container .box:nth-child(odd) {
+        background-color: #f5f5f5;
+    }
+    .blocks .gallery-container .box p:first-letter {
+        color: black;
+    }
+    .blocks .gallery-container .box  h2 {
+        font-size: 2.6em;
+    }
+    .blocks .gallery-container .box  p {
+        font-size: 1.4em;
+    }
+    /* Task-11 */
+    .tm-main-nav .tm-nav-item:not(:last-child) {
+        border-bottom: 2px dotted #d3d3d3;
+    }
+    /* Task-12 */
+    input[type='text'], 
+    button[type='submit'] {
+        color: red;
+    }
+    .mandatory-field::after {
+        content: '*';
+        color: red;
+        font-weight: bold;
+    }
+    button[type='submit']:hover {
+        background-color: #2baad1;
+        border-color: transparent;
+    }
+}
