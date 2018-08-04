@@ -1,47 +1,49 @@
 /* 
+
 write your code here
+
 */
 /* Task-1 */
-    @media print {
-        .tm-sidebar,#about,
-        section:not(:first-of-type){
-            display: none;
-        }
-        .tm-main-content {
-            margin-left: 0;
-            padding-left: 0;
-        }
-        .tm-banner {
-            height: 200px;
-            padding: unset;
-        }
-        .container {
-            width: 90%;
-            margin: 0 auto;
-        }
-        .tm-team-description-container {
-            max-width: 100%;
-            padding: 7px 15px 7px 15px;
-        }
-        .tm-team-description-container h2{
-            font-size: 30px;
-            color: blue;
-        }
-        .tm-team-description-container p{
-            font-size: 17px;
-        }
-        .flex-2-col {
-            display: block;
-        }
-        .flex-item:last-child {
-            text-align: center;
-        }
-        #home::before{
-            display: none;
-        }
-        .tm-main-content section:nth-child(2)::before{
-            display: none;
-        }
+@media print {
+    .tm-sidebar,#about,
+    section:not(:first-of-type){
+        display: none;
+    }
+    .tm-main-content {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .tm-banner {
+        height: 200px;
+        padding: unset;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tm-team-description-container {
+        max-width: 100%;
+        padding: 7px 15px 7px 15px;
+    }
+    .tm-team-description-container h2{
+        font-size: 30px;
+        color: blue;
+    }
+    .tm-team-description-container p{
+        font-size: 17px;
+    }
+    .flex-2-col {
+        display: block;
+    }
+    .flex-item:last-child {
+        text-align: center;
+    }
+    #home::before{
+        display: none;
+    }
+    .tm-main-content section:nth-child(2)::before{
+        display: none;
+    }
 }
 @media screen {
     /* Task-2 */
