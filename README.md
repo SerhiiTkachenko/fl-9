@@ -8,4 +8,5 @@
 
 3. [homework3](https://serhiitkachenko.github.io/fl-9/FE_9_3_homework_preprocessors/homework/index.html)
 
+4. [homework4](https://serhiitkachenko.github.io/fl-9/FE_9_4_homework_css-layouts/homework/index.html)
 
