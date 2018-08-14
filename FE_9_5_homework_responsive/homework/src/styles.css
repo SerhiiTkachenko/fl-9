@@ -1,0 +1,183 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+/* :root {
+  --bg-color--dark: #0a1223;
+  --bg-color--light: #fff;
+  --link: #5d5d5d;
+  --link--active: #54597d;
+  --link--hover: #54597d;
+  --article-title: #ddd;
+  --article-title--dark: #000;
+  --thumbnail--description: #5d5d5d; */
+
+  /* These styles are needed only for media query max-width: 575px */
+
+  /* The 'Up' button (circle button at right bottom corner) */
+  /* --btn-color: #fff;
+  --btn-bg-color: #5ebcff;
+
+  --navigation-border-bottom: #ddd;
+  --thumbnail-title: #484747;
+} */
+
+/* Your styles go here */
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.nav-section {
+  display: flex;
+  flex-direction: column;
+}
+.nav-item {
+  border-bottom: 1px solid #ddd;
+  color: #5d5d5d;
+  padding: 15px;
+  text-decoration: none;
+}   
+.nav-item:focus {
+  font-weight: bold;
+  color: #54597d;
+  padding: 20px;
+}
+/* main */
+main {
+  padding: 70px;
+}
+article {
+  margin-bottom: 30px;
+}
+.description {
+  margin-bottom: 30px;
+  color: #000;
+  text-align: center;
+}
+.article-info > h2 {
+  margin-bottom: 30px;
+  color: #484747;
+}
+.text{
+  margin-bottom: 30px;
+  color: #5d5d5d;
+  text-align: justify;
+  text-indent: 1em;
+}
+.img-about-moon {
+  max-width: 100%;
+}
+.button-up {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 63px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 100%;
+  color: #fff;
+  background: #5ebcff;
+  box-shadow: 6px 6px 25px #000;
+  text-align: center;
+  text-decoration: none;     
+}
+
+@media screen and (min-width: 575px) {
+  body {
+    background: #0a1223;
+  }
+  header {
+    padding-top: 20px;
+  }  
+  .nav-section {
+    flex-direction: row;
+    justify-content: center;  
+  }
+  .nav-item {
+    padding: 10px;
+    border-bottom: none;
+  }
+  .nav-item:hover {
+    color: #54597d;
+  } 
+  main {
+    padding: 60px 35px;
+  }  
+  .description {
+    align-self: center;
+    color: #ddd;
+  }
+  .about-moon {
+    margin: 60px auto;
+  }
+  .article-info > h2 {
+    position: relative;
+    color: #ddd;
+  }
+  .article-info > h2 {
+    background: linear-gradient(45deg, #ddd 25%, #5d5d5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text {
+    color: #5d5d5d;
+  }
+  .button-up {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 991px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  main {
+    flex-flow: row wrap; 
+  }
+  .nav-section {
+    padding: 0 10px;
+    justify-content: flex-end;
+  }
+  article {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .description {
+    font-size: 5vw;
+    margin: 12vw 0;
+  }
+  .article-info {
+    width: 425px;
+  }
+  .article-info > h2 {
+    font-size: 2.5vw;
+  }
+  article:nth-child(even) .article-info {
+    order: -1;
+  }
+  .text {
+    margin-bottom: 0;
+  }
+  .img-about-moon {
+    width: 425px;
+    height: 100%;
+  }
+  .button-up {
+    display: none;
+  }
+}
