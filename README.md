@@ -10,3 +10,4 @@
 
 4. [homework4](https://serhiitkachenko.github.io/fl-9/FE_9_4_homework_css-layouts/homework/index.html)
 
+5. [homework5](https://serhiitkachenko.github.io/fl-9/FE_9_5_homework_responsive/homework/src/index.html)
