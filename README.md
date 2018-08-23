@@ -15,3 +15,5 @@
 6.1 [task6.1](https://serhiitkachenko.github.io/fl-9/FE_9_6_homework_js-intro/homework/src/task1.html)
 
 6.2 [task6.2](https://serhiitkachenko.github.io/fl-9/FE_9_6_homework_js-intro/homework/src/task2.html)
+
+7. [task7](https://serhiitkachenko.github.io/fl-9/FE_9_7_homework_control-flow/homework/src/task1.html)
