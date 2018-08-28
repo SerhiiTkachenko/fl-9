@@ -20,5 +20,5 @@
 
 8. [task8 => Functions](https://github.com/SerhiiTkachenko/fl-9/tree/master/FE_9_8_homework_functions/homework/src)
 
-8. [task8 => Data types](https://github.com/SerhiiTkachenko/fl-9/blob/master/FE_9_9_homework_data-types/homework/index.js)
+8. [task9 => Data types](https://github.com/SerhiiTkachenko/fl-9/blob/master/FE_9_9_homework_data-types/homework/index.js)
 
