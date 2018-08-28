@@ -19,3 +19,6 @@
 7. [task7 => Control flow](https://serhiitkachenko.github.io/fl-9/FE_9_7_homework_control-flow/homework/src/task1.html)
 
 8. [task8 => Functions](https://github.com/SerhiiTkachenko/fl-9/tree/master/FE_9_8_homework_functions/homework/src)
+
+8. [task8 => Data types](https://github.com/SerhiiTkachenko/fl-9/blob/master/FE_9_9_homework_data-types/homework/index.js)
+
